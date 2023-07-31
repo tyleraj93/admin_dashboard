@@ -4,6 +4,16 @@
     border: 0;
 }
 
+
+:root{
+    /* CSS HEX */
+    --cinnabar: #e55934ff;
+    --mint-cream: #f2f7f2ff;
+    --jet: #303036ff;
+    --chefchaouen-blue: #4a8fe7ff;
+    --shamrock-green: #4f9d69ff;
+}
+
 body {
     height: 100vh;
     display: grid;
@@ -15,10 +25,16 @@ body {
     ;
 }
 
+img {
+    height: 25px;
+    filter: invert(100%);
+}
+
 #sidebar {
-    background-color: pink;
+    background-color: var(--chefchaouen-blue);
     border: 1px solid black;
     grid-area: sidebar;
+    color: white;
 }
 
 .sidebar_container {
@@ -42,13 +58,13 @@ body {
 }
 
 #header {
-    background-color: aqua;
+    background-color: var(--mint-cream);
     border: 1px solid black;
     grid-area: header;
 }
 
 #content {
-    background-color: lightgreen;
+    background-color: var(--jet);
     border: 1px solid black;
     grid-area: content;
 }
@@ -62,9 +78,6 @@ body {
     width: 50px;
     background-color: white;
 }
-
-img {
-    height: 30px;
-    filter: invert(100%);
+.cards {
+    background-color: var(--shamrock-green);
 }
-
