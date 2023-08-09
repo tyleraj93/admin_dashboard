@@ -106,6 +106,7 @@ h1 {
 .search form {
     display: flex;
     flex-grow: 1;
+    margin-right: 6vw;
 }
 
 .search img {
