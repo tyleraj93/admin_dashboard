@@ -188,7 +188,7 @@ h1 {
 .card {
     background-color: var(--mint-cream);
     padding: 20px;
-    min-height: 150px;
+    min-height: 180px;
     border-radius: 15px;
     border-left: solid 3px var(--cinnabar);
     display: grid;
